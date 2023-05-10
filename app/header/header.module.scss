@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid #D3D4D5;
+
+    .branding {
+        margin-left: 2rem;
+        font-weight: 900;
+        font-size: 2.5rem;
+        color: #000;
+    }
+
+    .menu {
+        display: flex;
+        list-style-type: none;
+        margin-right: 5rem;
+        align-items: center;
+        text-decoration: none;
+
+        .menuButton {
+            background: #009FD9;
+            margin-right: 4rem;
+            padding: 1rem;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .menuItem {
+            margin-right: 2rem;
+            color: #000;
+            font-size: 1.5rem;
+
+            &:hover {
+                cursor: pointer;
+                border-bottom: 3px solid #009FD9;
+                line-height: 5.8rem;
+            }
+        }
+    }
+}
