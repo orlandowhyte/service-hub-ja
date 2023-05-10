@@ -28,6 +28,23 @@
             align-items: center;
             width: 100%;
 
+            .label {
+                font-size: 1.6rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+                align-self: flex-start;
+                margin-left: 7rem;
+            }
+            
+            .errorMessage {
+                margin-top: -2rem;
+                color: #FF7697;
+                font-size: 1.2rem;
+                align-self: start;
+                margin-left: 7rem;
+                margin-bottom: 3rem;
+            }
+
             .textBox {
                 border: 1px solid #D3D4D5;
                 width: 40rem;
@@ -39,6 +56,70 @@
                 &:focus {
                     border: 1px solid #009FD9;
                 }
+            }
+
+            .error {
+                border: 1px solid #FF7697;
+
+                &:focus {
+                    border: 1px solid #FF7697;
+                }
+            }
+
+            .button {
+                background: #009FD9;
+                color: #fff;
+                width: 40rem;
+                text-align: center;
+                padding: 1.2rem 2rem;
+                border-radius: 0.5rem;
+                font-size: 1.6rem;
+                font-weight: 300;
+                margin-bottom: 3rem;
+    
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .agreement {
+            font-size: 1.4rem;
+            text-align: center;
+            width: 45rem;
+            margin-bottom: 3rem;
+        }
+
+        .provider {
+            color: #676D89;
+            width: 45rem;
+            text-align: center;
+            padding: 1.2rem 2rem;
+            border-radius: 0.5rem;
+            font-size: 1.6rem;
+            font-weight: 300;
+            margin-bottom: 3rem;
+            border: 2px solid #D3D4D5;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }   
+    }
+
+    .signupLink {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: 3rem;
+
+        .link {
+            margin-right: 2rem;
+            color: #009FD9;
+            font-size: 1.5rem;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
             }
         }
     }
