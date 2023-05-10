@@ -1,7 +1,15 @@
 import React from 'react'
+import Login from '@/client-components/login/login'
 
-export default function page() {
+
+export const metadata = {
+  title: 'Login - Service Hub Ja.',
+}
+
+export default function Page() {
   return (
-    <div>page</div>
+    <>
+      <Login />
+    </>
   )
 }
